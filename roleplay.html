@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery UI Checkboxradio - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.min.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "input" ).checkboxradio();
+  } );
+  </script>
+</head>
+<body>
+
+<h1> Welcome to the RolePlay Adventure Game!</h1>
+<p>Enjoy your adventure and hopefully your escape from New York City. Collect gold along the way and be careful to guard what little health you have left. Choose your character and your steps wisely. Playing as Jon the Knight, you have the strenth and skill to fight. Playing as the attorney Jimmy, you can use your verbal skills to weasel your way out of sticky and potentially dangerous situations. If you choose to play as Larry the scuba diver, you have the benefit of a mask and oxygen tanks, but may find walking through the city in flippers a bit awkward. Have fun and stay alive as long as possible!!</p>
+
+<p>Which character would you like to play?</p>
+
+<div class="widget">
+  <fieldset>
+    <legend>WHAT IS YOUR DECISION???? </legend>
+    <label for="radio-1">Sir Jon</label>
+    <input type="radio" name="knight" id="radio-1">
+    <label for="radio-2">Attorney Jimmy</label>
+    <input type="radio" name="attorney" id="radio-2">
+    <label for="radio-3">Scuba Larry</label>
+    <input type="radio" name="diver" id="radio-3">
+	<label for="radio-4">I'm outta here!</label>
+    <input type="radio" name="quit" id="radio-4">
+	<input type="submit" value="Submit">
+  </fieldset>
+
+ </div>
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("p").hide();
+    });
+    $("#show").click(function(){
+        $("p").show();
+    });
+});
+</script>
+
+<p>MOVE TO THE NEXT PHASE.</p>
+
+<button id="hide">Submit</button>
+<button id="show">Back</button>
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<div class="widget">
+  <fieldset>
+    <legend>WHAT IS YOUR DECISION???? </legend>
+    <label for="radio-1">Option 1</label>
+    <input type="radio" name="radio-1" id="radio-1">
+    <label for="radio-2">Option 2</label>
+    <input type="radio" name="radio-1" id="radio-2">
+    <label for="radio-3">Option 3</label>
+    <input type="radio" name="radio-1" id="radio-3">
+	<label for="radio-4">Option 4</label>
+    <input type="radio" name="radio-1" id="radio-4">
+  </fieldset>
+
+ </div>
+ 
+ 
+</body>
+</html>
